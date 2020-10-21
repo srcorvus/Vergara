@@ -1,0 +1,237 @@
+/* ancho de la barra */
+::-webkit-scrollbar {
+  width: 9.5px;
+}
+
+/* donde esta la barra */
+::-webkit-scrollbar-track {
+  background: #f1f1f100; 
+}
+ 
+/* color de la barra */
+::-webkit-scrollbar-thumb {
+  background: rgb(95, 95, 95); 
+}
+
+/* es el color de la barra cuando se pasa por ensima*/
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(221, 145, 192); 
+}
+
+
+
+
+body{
+  background-color: #ffffff ;
+  margin:0%;
+  cursor: crosshair;
+}
+h1{
+  position: relative;
+  margin-top: 9px;
+  margin-left: 9px;
+  
+}
+
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+.inpo{
+  border: solid 1px rgb(0,0,0);
+  position: absolute;
+  top: 3.478cm;
+  left: 15cm;
+  width: 3.547cm;
+  height: 1.413cm;
+  
+
+}
+.logf{
+
+  color: #ffffff;
+}
+.inpof{
+  
+  border: solid 1px rgb(255, 255, 255);
+  position: absolute;;
+  top: 45cm;
+  left: 5.5cm;
+  width: 3.547cm;
+  height: 1.413cm;
+}
+
+.faceb{
+  background-color: rgb(83, 83, 187);
+  width:0.737cm ;
+  height:0.737cm ;
+  position: absolute;
+  top: 0.68cm;
+  left: 30cm;
+  cursor: alias;
+}
+.instag{
+  background-color: rgb(172, 172, 172);
+  width:0.737cm ;
+  height:0.737cm ;
+  position: absolute;
+  top: 0.68cm;
+  left: 31.05cm;
+  cursor: alias;
+
+}
+.bordeheader{
+  
+  height: 10.404cm;
+  border: solid 1px rgb(0,0,0);}
+
+.bordercarru{
+  background-color: rgb(65,63,64);
+  height: 10.404cm;
+  
+
+}
+.bordecarruimg{
+  border: solid 1px rgb(223, 223, 223);
+  height: 10.404cm ;
+  width:25cm ;
+  position: absolute;
+
+
+}
+.botcom{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+  color: #ffffff;
+  background-color: rgb(24, 24, 24);
+  border: solid 1px rgb(20, 20, 20);
+  position: absolute;
+  top:17.5cm;
+  left: 28cm;
+  width: 90px;
+
+}
+.pbotcom{
+  font-style: bold;
+  position: relative;
+  top: 2px;
+  left: 6.5px;
+}
+.parraimg{
+  color: #ffffff;
+  position: absolute;
+  top:15.3cm;
+  left: 22cm;
+  width: 9.5cm;
+  height: 10cm;
+  
+
+
+}
+.pcate1{
+  font-size: 55px;
+  position: relative;
+  top: 3cm;
+  left: 1cm;
+}
+.pcate2{
+  font-size: 55px;
+  position: relative;
+  top: 3cm;
+  left: 1.4cm;
+}
+.pcate3{
+  font-size: 55px;
+  position: relative;
+  top: 3cm;
+  left: 1cm;
+}
+.mane{
+  color: #ffffff;
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.enuncarru{
+  position: absolute;
+  top:11cm;
+  left: 22cm;
+
+}
+
+
+.blokeb{
+  background-color: #ffffff;
+  height: 15.036cm;
+}
+.resen{
+  background-color: rgb(173,173,173);
+  height: 7.437cm;
+
+}
+.piesito{
+  background-color: rgb(65,63,64);
+  height: 4.531cm;
+}
+.mani{
+  background-color: rgb(215, 209, 209);
+  width: 7.037cm;
+  height: 7.037cm;
+  position: absolute;
+  top: 942px;
+  left: 4cm;
+}
+.pedi{
+  background-color: rgb(215, 209, 209);
+  width: 7.037cm;
+  height: 7.037cm;
+  position: absolute;
+  top: 942px;
+  left: 14.3cm;
+}
+.cirlimg{
+  background-color: rgb(215, 209, 209);
+  width: 5.258cm ;
+  height: 5.258cm;
+  position: absolute;
+  border-radius: 100%;
+  top: 36.888cm;
+  left: 4.5cm;
+}
+.produ{
+  background-color: rgb(215, 209, 209);
+  width: 7.037cm;
+  height: 7.037cm;
+  position: absolute;
+  top: 942px;
+  left: 24.5cm;
+}
+.presen{
+  color: #ffffff;
+  position: absolute;
+  font-size: 70px;
+  width:8cm;
+  height:2cm;
+  top: 38.55cm;
+  left: 11.5cm;
+
+}
+.guion{
+  position: absolute;
+  height:1.5cm;
+  border-right: solid #383838;
+  top: 39.1cm;
+  left: 18.5cm;
+}
+.ppresen{
+  color: #ffffff;
+  font-size: 12px;
+  position: absolute;
+  top: 39.3cm;
+  left: 19cm;
+  width: 10cm;
+}
+.pquie{
+  color: #ffffff;
+  position: absolute;
+  top: 45cm;
+  left: 12.3cm;}
